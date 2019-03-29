@@ -73,3 +73,9 @@ Push Data to Git / Github
     git add <filename.py>
     git commit
     git push origin new
+
+10. Updating remote references
+    git fetch origin master
+    git fetch --all
+
+    git merge origin/master
