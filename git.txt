@@ -61,7 +61,7 @@ Push Data to Git / Github
 5.  commit Changes
     git commit
 
-6.  publish local commits, as my branch is ahead of “origin/master”
+6.  publish local commits, as my branch is ahead of “origin/master” --> only important for github.com
     git push origin master
 -----------------------------------------------------------------------------------------
 
