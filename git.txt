@@ -58,10 +58,10 @@ Push Data to Git / Github
     git status
 
 -----------------------------------------------------------------------------------------
-5.  commit Changes
+5.  commit Changes (Pycharm: commit)
     git commit
 
-6.  publish local commits, as my branch is ahead of “origin/master” --> only important for github.com
+6.  publish local commits, as my branch is ahead of “origin/master” (Pycharm: push)
     git push origin master
 -----------------------------------------------------------------------------------------
 
