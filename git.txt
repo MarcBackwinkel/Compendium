@@ -57,11 +57,13 @@ Push Data to Git / Github
 4.  see Status
     git status
 
+-----------------------------------------------------------------------------------------
 5.  commit Changes
     git commit
 
 6.  publish local commits, as my branch is ahead of “origin/master”
     git push origin master
+-----------------------------------------------------------------------------------------
 
 7.  create new Branch
     git branch new
@@ -74,8 +76,10 @@ Push Data to Git / Github
     git commit
     git push origin new
 
+-----------------------------------------------------------------------------------------
 10. Updating remote references
     git fetch origin master
     git fetch --all
 
     git merge origin/master
+-----------------------------------------------------------------------------------------
