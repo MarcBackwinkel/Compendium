@@ -1,0 +1,75 @@
+Init Folder for Git:
+    git init
+
+add file to git:
+    git add <file.end>
+
+upload of files to git:
+    git commit
+
+see history of uploads:
+    git log
+    git log --all --graph --decorate --oneline
+
+Create new branch:
+    git branch <branch-name>
+
+Work in different branch:
+    git checkout <branch-name>
+
+Return to master branch:
+    git checkout master
+
+merge branches:
+    git merge <branch-name>
+    ...
+
+Link remote repository with local repo, origin identifies the remote repository
+    git remote add origin https://github.com/MarcBackwinkel/repository-name
+    git remote add fork https://github.com/MarcBackwinkel/repository-name
+    git remote add github https://github.com/MarcBackwinkel/repository-name
+    git remote add bitbucket https://bitbucket.org/MarcBackwinkel/repository-name
+
+Send data from local repo to remote repo
+    git push [remote-name] [branch-name | --all] [--tags]
+    git push origin –-all
+    git push origin master
+
+Cloning a repository
+    git clone https://github.com/MarcBackwinkel/repository-name
+
+only master branch is cloned/created locally, other branches can be cloned/created by making a checkout to them
+    git branch –r           //show all branches
+
+-------
+
+Push Data to Git / Github
+1.  clone repo
+    git clone https://github.com/MarcBackwinkel/Compendium.git
+
+2.  config user
+    git config –-global user.email marc.backwinkel@gmail.com
+    git config –-global user.name “marcBackwinkel”
+
+3.  change / add file(s)
+    if new file: git add <filename.py>
+
+4.  see Status
+    git status
+
+5.  commit Changes
+    git commit
+
+6.  publish local commits, as my branch is ahead of “origin/master”
+    git push origin master
+
+7.  create new Branch
+    git branch new
+
+8.  change to new Branch
+    git checkout new
+
+9.  change / add file(s), commit Changes & publish local commits
+    git add <filename.py>
+    git commit
+    git push origin new
