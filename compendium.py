@@ -1,6 +1,8 @@
 ### Chapter1. The way of the program
 #The first program
 print("Hello World")        #Hello World
+print("Hello","World")     #Hello World
+print("no line break",end="")
 43+2                        #47
 84/2                        #42.0
 6^2                         #4     (XOR: 00000110 ^ 00000010 = 00000100)
@@ -35,3 +37,40 @@ break   except      in          raise
 #it is more useful to explain why.
 
 ### Chapter 3. Functions
+#casting Variables
+int(32.7)
+float("34")
+str(3.3423)
+
+#Math Functions
+import math
+math.log10(ratio)
+math.sin(radius)
+math.pi
+math.sqrt
+
+#Definition of Functions
+#indention convention: 4 empty spaces
+def print_lyrics():
+	print("This is the content of my first function")
+
+#function ends with new, non indented line
+
+def functionWithPara(para):
+	print(para)
+
+def funtionWithReturnValue():
+    a = 5
+    return a
+
+#the return value can be None, which is != "None"
+
+### Repetition
+for i in range(4):
+    print(i)
+
+ct=0
+for letter in "banana":
+    if letter == "a":
+        ct = ct + 1
+print("banana contains",a , "* a")
